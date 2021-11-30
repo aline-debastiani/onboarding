@@ -40,3 +40,5 @@ Qual o resultado esperado?
 Teste automatizado dessa tarefa.
 
 Quando estivermos escrevendo cenários, estamos pensando o que pode acontecer? Qual o comportamento?
+
+cucumber -t @smoke_test
