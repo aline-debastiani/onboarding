@@ -4,6 +4,10 @@ Dado('que estou na tela de cadastro') do
   end
   
   Quando('realizo o cadastro do usuário com sucesso') do
+    find_field('Nome completo', with: '').set('John Wick')
+    page.find('span', text: 'feminino').click
+    find_field('Data de nascimento', with: '').set('17021979')
+    find_field('CPF', with: '').set('00000000000')
     # NOME COMPLETO
     # GENÊRO
     # CPF
